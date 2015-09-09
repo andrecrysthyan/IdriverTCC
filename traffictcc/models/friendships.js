@@ -25,3 +25,11 @@ Friendships.followers = function(friendId) {
 	return this.find({
 		friendId: friendId}).count(); 
 };
+Friendships.timelineIds = function(userId) { 
+	var timelineIds = this.find({ 
+		userId: userId }).map(function(f) { 
+			return f.friendId; 
+		}); 
+		timelineIds.push(userId); 
+		return timelineIds; 
+	};
