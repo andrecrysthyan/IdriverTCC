@@ -1,11 +1,13 @@
 Posts = new Mongo.Collection("posts");
 
-Posts.publish = function(message) { 
-	this.insert({ 
+Posts.publish = function(message, name) { 
+	var params = { 
 		message: message, 
-		date: new Date(), 
-		userId: Meteor.userId() 
-	}); 
+		time: new Date(), 
+		userId: Meteor.userId(), 
+		name: name 
+	}; 
+	this.insert(params); 
 };
 
 Posts.list = function(userId) { 
