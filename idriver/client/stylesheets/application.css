@@ -8,7 +8,10 @@ body {
 
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-form {
-  background-color: #5bc0de;
+  background-color: #3ADF00;
+
+  
+
 }
 
 .navbar-default .navbar-brand {
@@ -19,9 +22,53 @@ body {
   color: #fff;
 }
 
+.btn-primary {
+  color: #fff;
+  background-color: #047611;
+  border-color: #3ADF00;
+}
+
+.btn-info {
+  border-color: #3ADF00;
+}
+
+.badge {
+  background-color: #3ADF00;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+  color: #fff;
+  background-color: #047611;
+  border-color:#3ADF00 ;
+}
+
+
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:hover,
 .navbar-default .navbar-nav > .open > a:focus {
   color: #fff;
-  background-color: #357ebd;
+  background-color: #04B431;
+}
+
+.btn-info:hover,
+.btn-info:focus,
+.btn-info:active,
+.btn-info.active,
+.open .dropdown-toggle.btn-info {
+  color: #fff;
+  background-color: #047611;
+  border-color: #3ADF00;
+}
+
+.btn {
+  background-color: #3ADF00;
+
+}
+.btn-Facebook:hover{
+  background-color: #047611;
+  color: #fff;
 }
