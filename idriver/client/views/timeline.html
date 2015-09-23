@@ -1,11 +1,11 @@
 <template name="timeline"> 
 	<div class="row"> <br/>
 		<fieldset class="col-sm-12"> 
-			<legend>Últimas postagens</legend> 
+			<legend> Últimas postagens </legend>
 		{{#each posts}} 
 			<blockquote class="lead"> 
-				<p>{{message}}</p> 
-				<small>Autor: 
+				<p> <h4> {{message}} </h4> </p> 
+				<small> Autor: 
 					<a href="{{pathFor route='user' data=userId}}"> {{name}} </a> 
 				</small> 
 			</blockquote> 

@@ -1,6 +1,7 @@
 <template name="home"> 
 {{#if currentUser}} 
 	<aside class="col-sm-3"> 
+	<img src="..." alt="..." class="img-circle">
 	{{> profile}} 
 	{{> friendship}}
 	</aside>
@@ -9,8 +10,14 @@
 	{{> timeline}} 
 	</section> 
 {{else}} 
-	<div class="text-center">
-<img src="http://oi59.tinypic.com/i3c8sl.jpg" height="200 px" >
-</div>
+<section id="intro" class="intro">
+	<div class="slogan">
+	<!--<img src="http://oi57.tinypic.com/2jcg9y.jpg" > -->
+	<h1>Bem vindo ao I D R I V E R</h1>
+			<p>Rede social de informações sobre o trânsito</p>
+	</div>
+
+</section>
+
 {{/if}} 
 </template>

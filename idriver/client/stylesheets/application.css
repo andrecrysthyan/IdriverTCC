@@ -1,31 +1,22 @@
 body { 
 	background-color: #fff; 
+
+
 } 
 .container { 
 	background-color: #FFF; 
 	width: 100%; 
-}
-
-.navbar-default .navbar-collapse,
-.navbar-default .navbar-form {
-  background-color: #3ADF00;
-
-  
+ 
 
 }
 
-.navbar-default .navbar-brand {
-  color: #fff;
-}
 
-.navbar-default .navbar-nav > li > a {
-  color: #fff;
-}
 
 .btn-primary {
   color: #fff;
   background-color: #047611;
   border-color: #3ADF00;
+  background-image: url(http://oi57.tinypic.com/n3kuxg.jpg);
 }
 
 .btn-info {
@@ -47,11 +38,8 @@ body {
 }
 
 
-.navbar-default .navbar-nav > .open > a,
-.navbar-default .navbar-nav > .open > a:hover,
-.navbar-default .navbar-nav > .open > a:focus {
-  color: #fff;
-  background-color: #04B431;
+a {
+  color: #3ADF00;
 }
 
 .btn-info:hover,
@@ -66,9 +54,99 @@ body {
 
 .btn {
   background-color: #3ADF00;
-
+  
 }
+
 .btn-Facebook:hover{
   background-color: #047611;
   color: #fff;
 }
+
+
+
+.gn-menu-main,
+.gn-menu-main ul {
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    
+    list-style: none;
+    text-transform: none;
+    
+    font-family: 'Lato', Arial, sans-serif;
+    line-height: 60px;
+    z-index:150;
+}
+
+
+
+
+
+
+.gn-menu-main > li {
+    display: block;
+    float: left;
+    height: 100%;
+    border-right: 1px solid #c6d0da;
+    text-align: center;
+}
+
+
+
+
+
+.gn-menu-main > li:last-child {
+    float: right;
+    
+}
+
+.gn-menu-main > li > a {
+    padding: 0 30px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    
+}
+
+
+
+#intro{ 
+  background-image: url(http://oi59.tinypic.com/6gac1j.jpg);
+  background-size: cover;
+  height: 500px;
+
+}
+
+.intro {
+  width:100%;
+  position:relative;
+}
+
+.intro .slogan {
+  padding: 110px 0 60px;
+  text-align: center;
+  
+}
+.intro .slogan h1 {
+  color: #fff;
+  line-height: 1.1em;
+  margin-bottom: 20px;
+   font-size: 40px;
+}
+.intro .slogan p {
+  color: #eee;
+  margin-bottom: 50px;
+  font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
