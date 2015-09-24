@@ -1,11 +1,12 @@
 body { 
 	background-color: #fff; 
 
-
 } 
 .container { 
 	background-color: #FFF; 
-	width: 100%; 
+	width: 100%;
+  margin: 0;
+  padding: 0;
  
 
 }
@@ -27,6 +28,8 @@ body {
   background-color: #3ADF00;
 }
 
+.btn-block:hover,
+.btn-default:hover,
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary:active,
@@ -40,6 +43,15 @@ body {
 
 a {
   color: #3ADF00;
+
+}
+
+a:hover,
+a:focus {
+  color: #047611;
+  text-decoration: none;
+  font-weight: bold;
+
 }
 
 .btn-info:hover,
@@ -64,6 +76,8 @@ a {
 
 
 
+
+
 .gn-menu-main,
 .gn-menu-main ul {
     margin: 0;
@@ -78,16 +92,53 @@ a {
     z-index:150;
 }
 
+.navbar-brand{
+  display: block;
+    float: left;
+    height: 100%;
+    border-right: 1px solid #c6d0da;
+    
+    text-align: center;
 
+}
 
+.navbar-default .navbar-brand {
+  color: #3ADF00;
+}
 
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #047611;
+  background-color: transparent;
+}
 
+.navbar-default .navbar-nav > li > a {
+  color: #3ADF00;
+}
 
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #047611;
+  background-color: transparent;
+}
+
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #047611;
+  background-color: transparent;
+}
+
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #e7e7e7;
+}
 .gn-menu-main > li {
     display: block;
     float: left;
     height: 100%;
     border-right: 1px solid #c6d0da;
+    
     text-align: center;
 }
 
@@ -104,15 +155,19 @@ a {
     padding: 0 30px;
     text-transform: uppercase;
     letter-spacing: 1px;
-    
+    font-weight: bold;
 }
 
 
 
 #intro{ 
   background-image: url(http://oi59.tinypic.com/6gac1j.jpg);
+  
   background-size: cover;
+
   height: 500px;
+
+  
 
 }
 
@@ -122,8 +177,9 @@ a {
 }
 
 .intro .slogan {
-  padding: 110px 0 60px;
+  padding: 120px 0 60px;
   text-align: center;
+
   
 }
 .intro .slogan h1 {
@@ -142,7 +198,10 @@ a {
 
 
 
-
+.navbar-collapse {
+  max-width: 100%;
+  width: 100%;
+}
 
 
 
