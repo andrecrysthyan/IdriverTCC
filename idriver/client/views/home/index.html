@@ -1,13 +1,13 @@
 <template name="home"> 
 {{#if currentUser}} 
 	<aside class="col-sm-3"> 
-	<img src="..." alt="..." class="img-circle">
 	{{> profile}} 
 	{{> friendship}}
 	</aside>
 	<section class="col-sm-9"> 
 	{{> post}} 
 	{{> timeline}} 
+	{{> map}}
 	</section> 
 {{else}} 
 <section id="intro" class="intro">
@@ -21,3 +21,4 @@
 
 {{/if}} 
 </template>
+
