@@ -2,6 +2,7 @@
 {{#if user}} 
 	<div class="text-center"> 
 	{{#with user.profile}} 
+	{{> avatar user=this shape="circle"}}
 		<h1>{{name}}</h1> 
 		<p>{{about}}</p>
 	{{/with}} 
