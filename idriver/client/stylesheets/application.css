@@ -7,8 +7,6 @@ body {
 	width: 100%;
   margin: 0;
   padding: 0;
- 
-
 }
 
 .map-container {
@@ -33,6 +31,7 @@ body {
 
 .badge {
   background-color: #3ADF00;
+  
 }
 
 .btn-block:hover,
@@ -168,11 +167,11 @@ a:focus {
 
 
 #intro{ 
-  background-image: url(http://oi59.tinypic.com/6gac1j.jpg);
+  background-image: url(img/principalteste.png); 
   
   background-size: cover;
 
-  height: 500px;
+  height: 565px;
 
   
 
@@ -184,7 +183,7 @@ a:focus {
 }
 
 .intro .slogan {
-  padding: 120px 0 60px;
+  padding: 70px 0 60px;
   text-align: center;
 
   
@@ -212,7 +211,19 @@ a:focus {
 
 
 
+.navbar {
+  position: relative;
+  min-height: 50px;
+  margin-bottom: 0px;
+  border: 3px solid transparent;
+  border-bottom: 2px solid #eee;
+}
 
-
+hr {
+  margin-top: 5px;
+  margin-bottom: 0px;
+  border: 0;
+  border-top: 0px solid #eee;
+}
 
 
