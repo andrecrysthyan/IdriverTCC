@@ -1,5 +1,6 @@
-Router.route("/", function() { 
-	var _id = Meteor.userId(); 
+Router.route("/", function() {
+	var _id = Meteor.userId();
+	this.subscribe("userData", _id).wait();
 	this.subscribe("posts", _id).wait(); 
 	this.subscribe("friendship", _id); 
 	var timelineIds = Friendships.timelineIds(_id); 
