@@ -7337,7 +7337,7 @@ var packageMetadata = {
                 },
                 "version": {
                   "type": "constant",
-                  "value": "ceffad598e5208a9afccb6a34b6eb92a1fcdb951"
+                  "value": "60189cbf8ba166aa268a0db816414d203ede742a"
                 },
                 "PUBLIC_SETTINGS": {
                   "type": "object"
@@ -7878,7 +7878,7 @@ var packageMetadata = {
             },
             "fibersCreated": {
               "type": "constant",
-              "value": 11
+              "value": 9
             },
             "prototype": {
               "type": "object",
@@ -10712,6 +10712,30 @@ var packageMetadata = {
       }
     }
   },
+  "autoupdate": {
+    "Autoupdate": {
+      "type": "object",
+      "members": {
+        "autoupdateVersion": {
+          "type": "constant",
+          "value": "24ac9b3390aa75026c57b48deb892147d347f56f"
+        },
+        "autoupdateVersionRefreshable": {
+          "type": "constant",
+          "value": "d124073c671805bfc3be3229b992b92f81167c6e"
+        },
+        "autoupdateVersionCordova": {
+          "type": "constant",
+          "value": "none"
+        },
+        "appId": {
+          "type": "constant",
+          "value": "15g5m48111ov5j6rgdxa"
+        }
+      }
+    }
+  },
+  "appcache": {},
   "iron:location": {},
   "reactive-dict": {
     "ReactiveDict": {
@@ -12192,7 +12216,7 @@ var packageMetadata = {
             "cache": {
               "type": "object",
               "members": {
-                "1446169200410undefined": {
+                "1446179458843undefined": {
                   "type": "constant",
                   "value": "C:\\Users\\shynratcc\\idriver"
                 }
@@ -12560,6 +12584,39 @@ var packageMetadata = {
       }
     }
   },
+  "meteorhacks:inject-data": {
+    "InjectData": {
+      "type": "object"
+    }
+  },
+  "meteorhacks:picker": {
+    "Picker": {
+      "type": "object",
+      "members": {
+        "filterFunction": {
+          "type": "undefined"
+        },
+        "routes": {
+          "type": "array"
+        },
+        "subRouters": {
+          "type": "array"
+        },
+        "middlewares": {
+          "type": "array"
+        },
+        "middleware": {
+          "type": "function"
+        },
+        "route": {
+          "type": "function"
+        },
+        "filter": {
+          "type": "function"
+        }
+      }
+    }
+  },
   "livedata": {
     "DDP": {
       "type": "object",
@@ -12629,33 +12686,47 @@ var packageMetadata = {
       "type": "undefined"
     }
   },
+  "meteorhacks:fast-render": {
+    "FastRender": {
+      "type": "object",
+      "members": {
+        "frContext": {
+          "type": "object",
+          "members": {
+            "slot": {
+              "type": "constant",
+              "value": 4
+            },
+            "get": {
+              "type": "function"
+            },
+            "getOrNullIfOutsideFiber": {
+              "type": "function"
+            },
+            "withValue": {
+              "type": "function"
+            }
+          }
+        },
+        "route": {
+          "type": "function"
+        },
+        "handleRoute": {
+          "type": "function"
+        },
+        "handleOnAllRoutes": {
+          "type": "function"
+        },
+        "onAllRoutes": {
+          "type": "function"
+        }
+      }
+    }
+  },
   "hot-code-push": {},
   "launch-screen": {
     "LaunchScreen": {
       "type": "undefined"
-    }
-  },
-  "autoupdate": {
-    "Autoupdate": {
-      "type": "object",
-      "members": {
-        "autoupdateVersion": {
-          "type": "constant",
-          "value": "3df4d08200cdc6f6146c63cb4aa91d07e3ff8e10"
-        },
-        "autoupdateVersionRefreshable": {
-          "type": "constant",
-          "value": "d124073c671805bfc3be3229b992b92f81167c6e"
-        },
-        "autoupdateVersionCordova": {
-          "type": "constant",
-          "value": "none"
-        },
-        "appId": {
-          "type": "constant",
-          "value": "15g5m48111ov5j6rgdxa"
-        }
-      }
     }
   }
 }

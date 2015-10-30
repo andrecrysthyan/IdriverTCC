@@ -14,4 +14,6 @@ Router.route("/", function() {
 		} 
 	}); 
 }, { 
-	name: "home" });
+	name: "home",
+	fastRender: true 
+});

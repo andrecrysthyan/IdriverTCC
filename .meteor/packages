@@ -31,3 +31,5 @@ utilities:avatar
 velocity:core
 velocity:html-reporter
 sanjo:jasmine
+appcache
+meteorhacks:fast-render
