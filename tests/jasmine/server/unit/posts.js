@@ -14,7 +14,7 @@ beforeEach(function () {
 afterEach(function() { 
 	jasmine.clock().uninstall(); 
 }); 
-it("should publish a post", function() {
+it("deve postar um post", function() {
 	spyOn(Posts, "insert"); 
 	Posts.publish(message, userName); 
 	var insertedArgs = Posts.insert.calls.argsFor(0); 
@@ -22,7 +22,7 @@ it("should publish a post", function() {
 		userId: userId, name: userName }]; 
 		expect(insertedArgs).toEqual(expectedArgs);
 }); 
-it("should list all user's posts", function() {
+it("deve listar todos os posts do usuário", function() {
 	var fakeResult = [ { message: "hi", time: new Date(), userId: userIds[0], name: userNames[0] }, 
 	{ message: "bye", time: new Date(), userId: userIds[1], name: userNames[1] }, ]; 
 	spyOn(Posts, "find").and.returnValue(fakeResult); var result = Posts.list(userIds); 

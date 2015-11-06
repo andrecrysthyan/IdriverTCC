@@ -1,7 +1,10 @@
 <template name="timeline"> 
 	<div class="row"> <br/>
+	{{> upload}}
 		<fieldset class="col-sm-12"> 
+		
 			<legend> Últimas postagens </legend>
+
 		{{#each posts}} 
 			<blockquote class="lead"> 
 				<p> <h4> {{message}} </h4> </p> 

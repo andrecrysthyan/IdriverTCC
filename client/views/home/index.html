@@ -1,11 +1,12 @@
 <template name="home"> 
 {{#if currentUser}} 
-	<aside class="col-sm-3"> 
+	<aside class="col-sm-3"> <br/>
 	{{> avatar user=currentUser shape="circle" size="large"}}
 	{{> profile}} 
 	{{> friendship}}
 	</aside>
 	<section class="col-sm-9"> 
+	{{> flashMessages}}
 	{{> post}} 
 	{{> timeline}} 
 	{{> map}}

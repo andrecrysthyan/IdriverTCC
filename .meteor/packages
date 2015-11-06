@@ -33,3 +33,7 @@ velocity:html-reporter
 sanjo:jasmine
 appcache
 meteorhacks:fast-render
+mrt:flash-messages
+ixdi:material-design-iconic-font
+cfs:standard-packages
+cfs:filesystem
