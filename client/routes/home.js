@@ -3,6 +3,7 @@ Router.route("/", function() {
 	this.subscribe("userData", _id).wait();
 	this.subscribe("posts", _id).wait(); 
 	this.subscribe("friendship", _id); 
+	this.subscribe("uploads").wait();
 	var timelineIds = Friendships.timelineIds(_id); 
 	this.render("home", { 
 		data: function() { 
@@ -16,4 +17,4 @@ Router.route("/", function() {
 }, { 
 	name: "home",
 	fastRender: true 
-});
+	});

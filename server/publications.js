@@ -12,5 +12,5 @@ Meteor.publish("userData", function(_id) {
 	return Meteor.users.find({_id: _id}, {fields: {"services": 1 }});
 });
 Meteor.publish("uploads", function(){
-  return Uploads.findOne();
+  return Uploads.find();
 });

@@ -7337,7 +7337,7 @@ var packageMetadata = {
                 },
                 "version": {
                   "type": "constant",
-                  "value": "6a2d65a7f023b671ffe4bfc3d63aa138f8def675"
+                  "value": "ff1e6dd99c621dea0a8a1f2d45884583b170920c"
                 },
                 "PUBLIC_SETTINGS": {
                   "type": "object"
@@ -7461,7 +7461,7 @@ var packageMetadata = {
             },
             "connections": {
               "type": "constant",
-              "value": 1
+              "value": 0
             },
             "timeout": {
               "type": "constant",
@@ -7878,7 +7878,7 @@ var packageMetadata = {
             },
             "fibersCreated": {
               "type": "constant",
-              "value": 9
+              "value": 10
             },
             "prototype": {
               "type": "object",
@@ -10737,7 +10737,7 @@ var packageMetadata = {
       "members": {
         "autoupdateVersion": {
           "type": "constant",
-          "value": "c69453e65d285c7db748cbd5b654c531a45f0c44"
+          "value": "7b7c3c6b4596e511815c70c9cfd19731736d1c49"
         },
         "autoupdateVersionRefreshable": {
           "type": "constant",
@@ -12235,7 +12235,7 @@ var packageMetadata = {
             "cache": {
               "type": "object",
               "members": {
-                "1446787710670undefined": {
+                "1447043562674undefined": {
                   "type": "constant",
                   "value": "C:\\Users\\shynratcc\\idriver"
                 }
