@@ -34,7 +34,7 @@ if (Meteor.isClient) {
         map.instance.setZoom(MAP_ZOOM);
       });
     });
-  });
+  }); 
 
   Template.map.helpers({
     geolocationError: function() {

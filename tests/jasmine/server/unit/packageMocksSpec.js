@@ -7338,7 +7338,7 @@ var packageMetadata = {
                 },
                 "version": {
                   "type": "constant",
-                  "value": "ff1e6dd99c621dea0a8a1f2d45884583b170920c"
+                  "value": "7578e15cedc829d29b1de111c4a34623645dd767"
                 },
                 "PUBLIC_SETTINGS": {
                   "type": "object"
@@ -10732,30 +10732,6 @@ var packageMetadata = {
       }
     }
   },
-  "autoupdate": {
-    "Autoupdate": {
-      "type": "object",
-      "members": {
-        "autoupdateVersion": {
-          "type": "constant",
-          "value": "7b7c3c6b4596e511815c70c9cfd19731736d1c49"
-        },
-        "autoupdateVersionRefreshable": {
-          "type": "constant",
-          "value": "94c5868788720972463ca8cc98e3221369c44573"
-        },
-        "autoupdateVersionCordova": {
-          "type": "constant",
-          "value": "none"
-        },
-        "appId": {
-          "type": "constant",
-          "value": "15g5m48111ov5j6rgdxa"
-        }
-      }
-    }
-  },
-  "appcache": {},
   "iron:location": {},
   "reactive-dict": {
     "ReactiveDict": {
@@ -12236,7 +12212,7 @@ var packageMetadata = {
             "cache": {
               "type": "object",
               "members": {
-                "1447043562674undefined": {
+                "1447840385941undefined": {
                   "type": "constant",
                   "value": "C:\\Users\\shynratcc\\idriver"
                 }
@@ -13922,7 +13898,30 @@ var packageMetadata = {
   "cfs:upload-http": {},
   "cfs:collection": {},
   "cfs:collection-filters": {},
-  "cfs:worker": {}
+  "cfs:worker": {},
+  "autoupdate": {
+    "Autoupdate": {
+      "type": "object",
+      "members": {
+        "autoupdateVersion": {
+          "type": "constant",
+          "value": "9a03e7cc566322dd376009f950c2a8b79eae8bbf"
+        },
+        "autoupdateVersionRefreshable": {
+          "type": "constant",
+          "value": "94c5868788720972463ca8cc98e3221369c44573"
+        },
+        "autoupdateVersionCordova": {
+          "type": "constant",
+          "value": "none"
+        },
+        "appId": {
+          "type": "constant",
+          "value": "15g5m48111ov5j6rgdxa"
+        }
+      }
+    }
+  }
 }
 var globalContext = (typeof global !== 'undefined') ? global : window
 var originalContext = []
