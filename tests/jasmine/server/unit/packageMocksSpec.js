@@ -7338,7 +7338,7 @@ var packageMetadata = {
                 },
                 "version": {
                   "type": "constant",
-                  "value": "ca233f554a50921ab241393a89fe00035817ef1b"
+                  "value": "a9105cb99aa03061c642ea24c4633c69acc71104"
                 },
                 "PUBLIC_SETTINGS": {
                   "type": "object"
@@ -7879,7 +7879,7 @@ var packageMetadata = {
             },
             "fibersCreated": {
               "type": "constant",
-              "value": 9
+              "value": 11
             },
             "prototype": {
               "type": "object",
@@ -12193,7 +12193,7 @@ var packageMetadata = {
             "cache": {
               "type": "object",
               "members": {
-                "1448212920448undefined": {
+                "1448226520029undefined": {
                   "type": "constant",
                   "value": "C:\\Users\\shynratcc\\idriver"
                 }
@@ -12714,7 +12714,7 @@ var packageMetadata = {
       "members": {
         "autoupdateVersion": {
           "type": "constant",
-          "value": "3b073b90268e68b4d34d9cc6f01d9ddf960855a4"
+          "value": "6b836c18587eed1ffce61445bf476f910979959c"
         },
         "autoupdateVersionRefreshable": {
           "type": "constant",
