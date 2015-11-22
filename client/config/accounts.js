@@ -6,3 +6,7 @@ Accounts.ui.config({
 			facebook: ["email", "user_about_me"] 
 		} 
 	});
+
+if (Meteor.isClient) {
+	accountsUIBootstrap3.setLanguage('pt-BR');
+};

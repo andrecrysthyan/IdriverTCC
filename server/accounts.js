@@ -7,4 +7,10 @@ Accounts.onCreateUser(
 			user["profile"] = options.profile; 
 		} 
 		return user; 
-	});
+	})
+
+
+
+;
+
+
