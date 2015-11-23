@@ -1,0 +1,43 @@
+<template name="header"> 
+	
+<!--
+	<header class="container">
+			<ul id="gn-menu" class="gn-menu-main">
+				<li><a href="{{pathFor route='home'}}" > I D R I V E R </a></li>
+				<li><ul class="nav navbar-nav navbar-right"> {{> loginButtons}}
+                    
+                </ul></li>
+			</ul>
+	</header>
+
+-->
+
+
+
+	<header class="container"> 
+		
+ <nav role="navigation" class="navbar navbar-default">
+         
+
+            	<div class="navbar-header">
+                <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">                    
+                    <span class="sr-only"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>                
+                </button>                
+            
+            <a href="{{pathFor route='home'}}" class="navbar-brand" > I D R I V E R </a>   
+            </div>  
+           
+           
+            <div id="navbarCollapse" class="navbar-collapse collapse">
+           <ul class="nav navbar-nav navbar-right"> {{> loginButtons}}
+                    
+                </ul>
+
+            </div>
+        </nav>
+ 
+	</header>  
+</template>
